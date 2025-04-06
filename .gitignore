@@ -1,0 +1,43 @@
+# Visual Studio 관련 파일 (사용하시는 IDE에 따라 포함/제외 조정)
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.ncb
+*.sdf
+*.cache
+*.VC.db
+*.VC.VC.opendb
+
+# 빌드 산출물 및 임시 파일
+bin/
+obj/
+Build/
+Debug/
+Release/
+x64/
+x86/
+
+# 컴파일러 및 링커가 생성하는 파일
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.manifest
+
+# 로그 파일 및 기타 임시 파일
+*.log
+*.tlog
+*.lastbuildstate
+
+# Windows OS 관련 파일
+Thumbs.db
+ehthumbs.db
+
+# 외부 라이브러리 (필요한 경우, 외부 라이브러리 소스코드나 바이너리를 따로 관리하지 않는다면)
+external/

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="External\imgui\imgui.cpp" />
+    <ClCompile Include="External\imgui\imgui_draw.cpp" />
+    <ClCompile Include="External\imgui\imgui_tables.cpp" />
+    <ClCompile Include="External\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="External\imgui\imgui-SFML.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\imgui\imconfig-SFML.h" />
+    <ClInclude Include="External\imgui\imgui.h" />
+    <ClInclude Include="External\imgui\imgui_internal.h" />
+    <ClInclude Include="External\imgui\imgui-SFML.h" />
+    <ClInclude Include="External\imgui\imgui-SFML_export.h" />
+    <ClInclude Include="External\imgui\imstb_rectpack.h" />
+    <ClInclude Include="External\imgui\imstb_textedit.h" />
+    <ClInclude Include="External\imgui\imstb_truetype.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Vec2.h" />
+    <ClInclude Include="EntityManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config.txt" />
+  </ItemGroup>
+</Project>
