@@ -104,8 +104,7 @@ void Game::run()
 			LifespanCount();
 			currentFrame++;
 		}
-		
-		GUI();
+
 		Render();
 	}
 }
